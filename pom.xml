@@ -23,9 +23,11 @@
 					</execution>
 				</executions>
 				<configuration>
-					<hostname>localhost</hostname>
+					<hostname>192.168.222.132</hostname>
 					<port>9990</port>
-					<jbossHome>C:\jboss\wildfly-10.1.0.Final</jbossHome>
+					<!-- <jbossHome>C:\jboss\wildfly-10.1.0.Final</jbossHome> -->
+					<username>admin</username>
+					<password>Admin#007</password>
 					<name>tomihome-jenkins-test.war</name>
 					<url>tomihome-jenkins-test</url>
 				</configuration>
